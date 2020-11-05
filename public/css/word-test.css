@@ -1,0 +1,208 @@
+/* search */
+.button {
+    display: inline-block;
+    border-radius: 15%;
+    /* 角丸       */
+    font-size: 20pt;
+    /* 文字サイズ */
+    text-align: center;
+    /* 文字位置   */
+    cursor: pointer;
+    /* カーソル   */
+    padding: 12px 30px;
+    /* 余白       */
+    background: #00007f;
+    /* 背景色     */
+    color: #ffffff;
+    /* 文字色     */
+    line-height: 1em;
+    /* 1行の高さ  */
+    transition: .3s;
+    /* なめらか変化 */
+    box-shadow: 5px 5px 43px #666666;
+    /* 影の設定 */
+    border: 2px solid #00007f;
+    /* 枠の指定 */
+    margin: 10px 0 0 110px;
+  }
+
+  .button:hover {
+    box-shadow: none;
+    /* カーソル時の影消去 */
+    color: #00007f;
+    /* 背景色     */
+    background: #ffffff;
+    /* 文字色     */
+  }
+
+  .top-com {
+    margin: 100px 35%;
+  }
+
+  label {
+    font-size: 25px;
+  }
+
+  .top-btn {
+    float: left;
+    margin: 10px 0 0 20px;
+    font-size: 20px;
+  }
+
+  #length {
+    margin-left: 40px;
+  }
+
+  .length {
+    margin-left: 35px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .btn-animation-02 {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    background-color: #9ec34b;
+    border: 2px solid #9ec34b;
+    font-size: 16px;
+    color: #9ec34b;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 24px;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  .btn-animation-02 span {
+    position: relative;
+    z-index: 1;
+  }
+
+  .btn-animation-02::before,
+  .btn-animation-02::after {
+    content: "";
+    display: block;
+    background-color: #FFF;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: .2s;
+  }
+
+  .btn-animation-02::before {
+    left: 0;
+  }
+
+  .btn-animation-02::after {
+    right: 0;
+  }
+
+  .btn-animation-02:hover:before,
+  .btn-animation-02:hover:after {
+    width: 0;
+    background-color: #FFF;
+  }
+
+  .btn-animation-02:hover {
+    color: #FFF;
+  }
+
+  /* problem answer */
+  .border {
+    border: solid 1px;
+}
+
+th {
+    background-color: #53a7ef;
+}
+
+tr:nth-child(2n+1) {
+    background-color: #edf9ff;
+}
+
+table {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.top {
+    margin: 0 45%;
+}
+
+.first{
+    width: 7%;
+}
+.second {
+    width: 28%;
+}
+.third {
+    width: 65%;
+}
+
+@media print {
+    .noprint {
+        display: none;
+    }
+
+    .header {
+        font-size: 5px;
+        text-align: center;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td,
+    th {
+        border: 2px #000000 solid;
+        padding: 0px;
+    }
+
+}
+body {
+    background-color: azure;
+}
+.error {
+  color: red;
+  margin-top: 15px;
+}
+.center {
+  text-align: center;
+}
+.mgn-left120 {
+  margin-left: 120px;
+}
+.mgn-left20 {
+  margin-left: 20px;
+}
+.box {
+  border: red solid;
+  width: 300px;
+}
+.imagesBox h1 {
+  text-align: center;
+}
+.topImage {
+  float: left;
+  margin: 5px 11px;
+  width: 310px;
+  height: 310px;
+}
+.english_box {
+  margin: 40px 25%;
+  color: red;
+}
+.english_box a {
+  color: red;
+  font-size: 25px;
+}
+.english_box a:hover {
+  color: indianRed;
+	text-decoration: inherit;
+}
